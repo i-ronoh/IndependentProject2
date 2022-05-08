@@ -1,11 +1,9 @@
 /* NAVBAR */
-.black{
-    background-color: black;
-}
 
 
-#nav2{
-  height:80vh;
+
+#section1{
+  height:40vh;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -17,29 +15,73 @@
 .navlanding2{
   list-style: none;
   justify-content: center;
-  display: inline-block;
+  display: inline-flex;
   cursor: pointer;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 40px;
+  margin-left: 40px;
   color: white;
   font-size: larger;
-  
 }
 
 li{
   min-width: 100px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
 }
 
 
 hr.solid {
-    opacity: 0.1;
+    opacity: 1;
     width: 100%;
-    height: 100px;
     color: white;
     border-left: black;
     border-right: black;
+    border-bottom: white;
+    height: 20vh;
 }
 
+/* BODY */
+
+#longbody{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  #longbody > .bawdy{
+    display: flex;
+  }
+  
+  #longbody > .bawdy > .leftsyd, .rightsyd{
+    width: 50%;
+  }
+  
+  #longbody > .bawdy > .leftsyd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+  }
+  
+  #longbody > .bawdy > .rightsyd{
+    padding-right: 30px;
+  }
+  
+  .thumbnails{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumb{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.20px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+}
 
 /* FOOTER */
 
