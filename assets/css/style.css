@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -9,7 +10,7 @@ body{
   margin: 0;
 }
 
-nav{
+#section0{
   background-image: url("../images/nav_bg.png");
   background-size: cover; 
   background-position: center center;
@@ -21,12 +22,8 @@ nav{
   background-color: #332323;
 }
 
-navdiv1{
-
-}
-
 .navlist{
-  list-style-type: none;
+  list-style: none;
   justify-content: center;
   display: inline-flex;
   cursor: pointer;
@@ -41,7 +38,7 @@ li{
 }
 
 .login1{
-  background-color: #dbd943;
+  background-color: #faff00;
   color:black;
   padding: 2px 10px;
   border-radius: 0;
@@ -58,5 +55,100 @@ li{
   border: 2px black;
   font-size: 20px; 
   margin-left: 40px;
- 
+}
+
+#section1header1 > .header1> h1{
+  font-size: 40px;
+  color: #faff00;
+  display: block;
+  font-size:50px;
+  font-weight: lighter;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#section1header1 > .header1> p{
+  display: flex;
+  color: white;
+  font-size: x-large;
+  align-items: center;
+  justify-content: center;
+  float: right;
+}
+
+
+/* FOOTER */
+
+
+
+
+.footer-title{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding-left: 325px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+}
+
+.colorh2{
+  color: #db8500;
+  font-weight: lighter;
+}
+
+.footer-container{
+  background-color: black;
+  padding-bottom:0px;
+}
+.footer{
+  width: 75%;
+  height: 30vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin:auto;
+
+}
+.footer-heading{
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-heading1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.05px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1px;
+}
+
+.footer-heading h2{
+  margin-bottom: 2rem;
+  font-size: 16px;
+
+}
+
+.footer-heading a{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+
+}
+.footer-heading a:hover{
+  color: #db8500;
+  transition: 0.3s ease-out;
 }
